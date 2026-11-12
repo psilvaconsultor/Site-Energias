@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Política de privacidade | Pedro Silva Consultor</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Como o Pedro Silva Consultor trata os dados pessoais de quem pede contacto ou contrata os seus serviços.">
+<!-- RASCUNHO: tirar a linha seguinte quando os dados estiverem preenchidos, para o Google poder indexar. -->
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#4a451e">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap">
+<style>
+:root {
+  --azeitona: #4a451e;
+  --azeitona-claro: #5b5628;
+  --creme: #f8f4e6;
+  --papel: #fffefa;
+  --tinta: #2c290f;
+  --tinta-suave: #5a5634;
+  --linha: #d9d3b8;
+  --letra: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --fantasma: "Bodoni Moda", "Didot", "Times New Roman", serif;
+  --mosaico: clamp(24px, 3vw, 48px);
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--papel); color: var(--tinta);
+  font-family: var(--letra); font-size: 1rem; line-height: 1.65; -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-underline-offset: 4px; }
+:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+h1, h2, p, ul { margin: 0; padding: 0; }
+.exterior {
+  max-width: 1200px; margin-inline: auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 16px;
+  display: grid; gap: 12px;
+}
+.topo { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-block: 16px 4px; flex-wrap: wrap; }
+.marca { text-decoration: none; color: var(--azeitona); font-weight: 300; letter-spacing: -0.01em; }
+.marca strong { font-weight: 700; }
+.voltar { font-size: 0.875rem; color: var(--tinta-suave); padding-block: 8px; }
+.mosaico { position: relative; overflow: hidden; container-type: inline-size; padding: var(--mosaico); display: flex; flex-direction: column; gap: 24px; min-width: 0; }
+.mosaico--azeitona { background: var(--azeitona); color: var(--creme); }
+.mosaico--creme { background: var(--creme); }
+.etiquetas { display: flex; justify-content: space-between; gap: 16px; font-size: 0.6875rem; letter-spacing: 0.14em; text-transform: uppercase; opacity: .78; }
+h1 { font-weight: 300; font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -0.03em; line-height: 1.1; text-wrap: balance; position: relative; }
+h1 strong { font-style: italic; font-weight: 700; }
+.fantasma {
+  display: block; pointer-events: none; user-select: none; margin-top: auto; color: var(--azeitona-claro);
+  margin-inline: calc(var(--mosaico) * -1 - 0.02em) calc(var(--mosaico) * -1);
+  margin-bottom: calc(var(--mosaico) * -1 - 0.2em);
+  font-family: var(--fantasma); line-height: 1; white-space: nowrap; letter-spacing: -0.02em; font-size: 21cqw;
+}
+.texto { display: grid; gap: 32px; }
+.texto section { display: grid; grid-template-columns: minmax(180px, 3fr) 7fr; gap: 8px 40px; border-top: 1px solid var(--linha); padding-top: 20px; }
+.texto h2 { font-size: 1.125rem; font-weight: 700; letter-spacing: -0.01em; line-height: 1.35; }
+.corpo { display: grid; gap: 12px; max-width: 65ch; min-width: 0; overflow-wrap: anywhere; }
+.corpo ul { display: grid; gap: 6px; list-style: none; }
+.corpo li { padding-left: 16px; position: relative; }
+.corpo li::before { content: ""; position: absolute; left: 0; top: .8em; width: 7px; height: 1px; background: currentColor; }
+.falta { display: inline-block; padding: 2px 8px; border: 1px dashed currentColor; font-size: 0.8125rem; line-height: 1.5; }
+.rodape { font-size: 0.8125rem; color: var(--tinta-suave); padding-block: 8px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+@media (max-width: 720px) {
+  .texto section { grid-template-columns: minmax(0, 1fr); }
+  .etiquetas { font-size: 0.625rem; letter-spacing: 0.08em; }
+}
+</style>
+</head>
+<body>
+<div class="exterior">
+  <header class="topo">
+    <a class="marca" href="index.html"><strong>Pedro Silva</strong> Consultor</a>
+    <a class="voltar" href="index.html">Voltar à página principal</a>
+  </header>
+
+  <main style="display:grid;gap:12px">
+    <div class="mosaico mosaico--azeitona">
+      <div class="etiquetas"><span>Política de privacidade</span><span>Atualizada a 7 de novembro de 2026</span></div>
+      <h1>O que faço com <strong>os seus dados.</strong></h1>
+      <span class="fantasma" aria-hidden="true">privacidade</span>
+    </div>
+
+    <div class="mosaico mosaico--creme">
+      <div class="texto">
+        <section>
+          <h2>Quem trata os dados</h2>
+          <div class="corpo">
+            <p>O responsável pelo tratamento sou eu, Pedro Silva. Para qualquer questão sobre os seus dados, fale comigo:</p>
+            <ul>
+              <li>Email: <a href="mailto:pedrosilva_consultoria@outlook.pt">pedrosilva_consultoria@outlook.pt</a></li>
+              <li>Telefone: <a href="tel:+351919913955">+351 919 913 955</a></li>
+              <li><span class="falta">NIF e morada por indicar</span></li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Que dados recolho</h2>
+          <div class="corpo">
+            <p>Quando pede contacto: nome, email, telefone se o indicar, se o pedido é para casa ou empresa, e o que escrever na mensagem.</p>
+            <p>Se me enviar faturas ou contratar os meus serviços, recebo também o que esses documentos trazem: morada, NIF, códigos do local de consumo (CPE e CUI), condições do contrato e histórico de consumo.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Para que os uso</h2>
+          <div class="corpo">
+            <ul>
+              <li>Responder ao seu pedido. A base legal é o seu consentimento.</li>
+              <li>Analisar a sua situação e preparar opções, quando o pede. A base legal são as diligências prévias ao contrato e o próprio contrato.</li>
+              <li>Cumprir obrigações legais, como as de faturação.</li>
+            </ul>
+            <p>Não vendo os seus dados nem os uso para publicidade.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Quanto tempo os guardo</h2>
+          <div class="corpo">
+            <p>Se o pedido não der origem a um serviço, apago os dados até 12 meses depois do último contacto. Se trabalharmos juntos, guardo-os enquanto durar o acompanhamento e, depois disso, apenas o que a lei me obrigar a conservar e pelo prazo que ela fixar.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Quem mais tem acesso</h2>
+          <div class="corpo">
+            <ul>
+              <li>A Microsoft, porque o meu email está no Outlook e os pedidos chegam por lá.</li>
+              <li>O GitHub, que aloja este site e pode registar dados técnicos da visita, como o endereço IP.</li>
+              <li>A Google, que fornece os tipos de letra da página e recebe, para isso, o endereço IP de quem a visita.</li>
+              <li>Comercializadores, instaladores ou outros parceiros, só com o seu acordo e só quando for preciso para avançar com o que decidir.</li>
+            </ul>
+            <p>Alguns destes prestadores podem tratar dados fora da União Europeia, nomeadamente nos Estados Unidos, com as garantias previstas no RGPD.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Cookies</h2>
+          <div class="corpo">
+            <p>Este site não usa cookies próprios nem ferramentas de estatísticas ou de publicidade.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Os seus direitos</h2>
+          <div class="corpo">
+            <p>Pode pedir-me acesso aos seus dados, a sua correção ou apagamento, a limitação do tratamento e a portabilidade, e pode opor-se ao tratamento. Pode também retirar o consentimento em qualquer momento, sem afetar o que foi feito até aí.</p>
+            <p>Basta escrever-me para o email acima. Se considerar que os seus direitos não foram respeitados, pode apresentar queixa à Comissão Nacional de Proteção de Dados, em <a href="https://www.cnpd.pt">www.cnpd.pt</a>.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <span><strong>Pedro Silva Consultor</strong> © 2026</span>
+    <a href="index.html">Voltar à página principal</a>
+  </footer>
+</div>
+</body>
+</html>

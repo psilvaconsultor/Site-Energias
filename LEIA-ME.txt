@@ -1,0 +1,49 @@
+SITE PEDRO SILVA CONSULTOR
+==========================
+
+Esta pasta tem o site completo. Para o ver no computador, basta abrir o ficheiro index.html no navegador.
+
+O que está na pasta
+-------------------
+index.html         a página principal
+privacidade.html   a política de privacidade
+favicon.svg        o ícone que aparece no separador do navegador
+img/               as fotografias
+
+Os ficheiros têm de ficar juntos e com estes nomes, senão as imagens e as ligações deixam de funcionar.
+
+
+Antes de publicar
+-----------------
+1. NIF e morada
+   Faltam no rodapé da página principal e no início da política de privacidade. Procure, nos dois ficheiros, o texto «NIF e morada por indicar» e substitua-o pelos dados reais.
+
+2. Deixar o Google encontrar o site
+   Enquanto for rascunho, as duas páginas pedem ao Google para não as mostrar nas pesquisas. Quando os dados estiverem completos, apague em index.html e em privacidade.html esta linha:
+   <meta name="robots" content="noindex">
+
+3. Morada do site nas partilhas
+   Para a fotografia aparecer quando alguém partilha a ligação no WhatsApp ou no Facebook, o index.html tem de saber a morada definitiva do site. Procure a linha que contém MORADA-DO-SITE e troque esse texto pela morada (por exemplo https://www.pedrosilva.pt/).
+
+
+Onde publicar
+-------------
+É um site simples, sem base de dados, e funciona em qualquer alojamento de sites estáticos. Algumas opções gratuitas:
+
+- GitHub Pages: criar uma conta em github.com, criar um repositório público, carregar estes ficheiros e ativar o site em Settings > Pages.
+- Netlify: em app.netlify.com/drop, arrastar esta pasta para a página. O site fica logo online.
+- Cloudflare Pages: semelhante ao Netlify, com conta gratuita.
+
+Recomendação: registar um domínio próprio (por exemplo um .pt) e ligá-lo ao alojamento escolhido. Assim a morada nunca muda, mesmo que mude de alojamento.
+
+
+Formulário de contacto
+----------------------
+O formulário não precisa de servidor. Quando alguém carrega em «Enviar pedido», o site prepara um email para pedrosilva_consultoria@outlook.pt com os dados preenchidos, e a pessoa só tem de o enviar.
+
+Se quiser que os pedidos cheguem sem esse passo, pode usar um serviço como o Formspree: cria-se uma conta, copia-se o endereço do formulário e cola-se em index.html, no atributo data-endpoint="" do formulário. Nesse caso, a política de privacidade deve passar a referir esse serviço.
+
+
+Fotografias
+-----------
+A fotografia do Pedro é real. As restantes (painel solar, oliveiras e torre de alta tensão) foram geradas por inteligência artificial e podem ser substituídas por fotografias de trabalhos reais, mantendo os mesmos nomes de ficheiro.
